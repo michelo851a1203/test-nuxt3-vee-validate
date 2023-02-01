@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.1.1"
+  },
+  "dependencies": {
+    "@unocss/nuxt": "^0.49.2",
+    "@vee-validate/rules": "^4.7.3",
+    "@vee-validate/zod": "^4.7.3",
+    "unocss": "^0.49.2",
+    "vee-validate": "^4.7.3",
+    "vitest": "^0.28.3",
+    "zod": "^3.20.2"
+  }
+}
