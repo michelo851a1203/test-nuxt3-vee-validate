@@ -9,16 +9,18 @@ export const useValidation = () => {
       .min(1, 'need user account required'),
     password: zod.string()
       .min(1, 'need password required'),
+    cool: zod.string(),
   }));
 
   const initialValues = {
     user: '',
     password: '',
+    cool: 'A',
   }
 
   const handleSubmit = (values: Record<string, unknown>, actions: FormContext) => {
     console.log(values);
-    actions.resetForm()
+    // actions.resetForm()
   }
 
   return {

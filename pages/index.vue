@@ -22,6 +22,21 @@ const {
       type="password"
       placeholder="hello password"
     />
+    <baseRadioInput 
+      name="cool" 
+      setValue="A" 
+      title="A title"
+    />
+    <baseRadioInput 
+      name="cool" 
+      setValue="B" 
+      title="b title"
+    />
+    <baseRadioInput 
+      name="cool" 
+      setValue="C" 
+      title="c title"
+    />
     <button type="submit">test click</button>
   </validationForm>
   </template>

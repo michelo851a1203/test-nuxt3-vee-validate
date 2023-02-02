@@ -1,20 +1,24 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/uuid': ^9.0.0
   '@unocss/nuxt': ^0.49.2
   '@vee-validate/rules': ^4.7.3
   '@vee-validate/zod': ^4.7.3
   nuxt: ^3.1.1
   unocss: ^0.49.2
+  uuid: ^9.0.0
   vee-validate: ^4.7.3
   vitest: ^0.28.3
   zod: ^3.20.2
 
 dependencies:
+  '@types/uuid': 9.0.0
   '@unocss/nuxt': 0.49.2
   '@vee-validate/rules': 4.7.3
   '@vee-validate/zod': 4.7.3_f2btg7zmr5jfq4gp3vvwlannri
   unocss: 0.49.2
+  uuid: 9.0.0
   vee-validate: 4.7.3
   vitest: 0.28.3
   zod: 3.20.2
@@ -1180,6 +1184,10 @@ packages:
   /@types/resolve/1.20.2:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
     dev: true
+
+  /@types/uuid/9.0.0:
+    resolution: {integrity: sha512-kr90f+ERiQtKWMz5rP32ltJ/BtULDI5RVO0uavn1HQUOwjx0R1h0rnDYNL0CepF1zL5bSY6FISAfd9tOdDhU5Q==}
+    dev: false
 
   /@unhead/dom/1.0.20:
     resolution: {integrity: sha512-kGIR64Wo1GSC0TZt7wTVntMXFhuVYgxnm2vYZ7z/1Oiafj6uRsapKIlspft6klKZvndqUZuUUXVu++zgE0TdLg==}
@@ -4901,6 +4909,11 @@ packages:
 
   /util-deprecate/1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+
+  /uuid/9.0.0:
+    resolution: {integrity: sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==}
+    hasBin: true
+    dev: false
 
   /vee-validate/4.7.3:
     resolution: {integrity: sha512-1MwHLOzCrabSeChySZVVMamWStcucM1hHxapoebY9mJ7KWOvncMG19a7AlPl38zpE9pcD+G3CHKLvviGmTl5BQ==}
