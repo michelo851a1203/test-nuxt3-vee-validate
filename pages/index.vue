@@ -37,6 +37,7 @@ const {
       setValue="C" 
       title="c title"
     />
+    <baseTextArea name="multiWow" />
     <button type="submit">test click</button>
   </validationForm>
   </template>

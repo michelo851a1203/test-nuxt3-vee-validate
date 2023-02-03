@@ -10,12 +10,14 @@ export const useValidation = () => {
     password: zod.string()
       .min(1, 'need password required'),
     cool: zod.string(),
+    multiWow: zod.string(),
   }));
 
   const initialValues = {
     user: '',
     password: '',
     cool: 'A',
+    multiWow: '',
   }
 
   const handleSubmit = (values: Record<string, unknown>, actions: FormContext) => {
